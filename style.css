@@ -1,0 +1,79 @@
+body {
+  background-color: #9a7b32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+/* Wings */
+.wing {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  top: -20px;
+}
+
+.wing.left {
+  left: 20px;
+}
+
+.wing.right {
+  right: 20px;
+}
+.square{
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  background-color: white;
+  top: 20px;
+  left: 60px;
+}
+
+/* Body */
+.bee__body {
+  position: absolute;
+  top: 60px;
+  left: 25px;
+  width: 150px;
+  height: 80px;
+  background-color: #f9f90b;
+  border-radius: 40px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.stripe {
+  background-color: #111;
+  height: 100%;
+}
+
+.stripe.one {
+  width: 30px;
+}
+
+.stripe.two , .stripe.three {
+  width: 20px;
+  margin-left: 10px;
+}
+
+/* Eye */
+.eye {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  right: 20px;
+  top: 20px;
+}
